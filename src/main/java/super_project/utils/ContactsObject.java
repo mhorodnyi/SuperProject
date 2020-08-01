@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class Contacts {
+public class ContactsObject {
 	private String id;
 	private String[] emails;
 	private String[] numbers;
