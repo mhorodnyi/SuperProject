@@ -15,12 +15,7 @@ public class UserService {
 		return users.findById(id).get();
 	}
 	
-	public User setUser(User user) {
-		return users.save(user);
-	}
-	
-	public User updateUser(User user) {
-		users.delete(user);
+	public User setUpdateUser(User user) {
 		return users.save(user);
 	}
 	
